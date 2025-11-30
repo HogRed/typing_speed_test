@@ -112,7 +112,7 @@ This project helps you practice:
 7. When finished, the program shows your average WPM and accuracy.
 
 
-## 📝 WPM Formula
+## WPM Formula
 
 This program uses the standard typing-test definition:
 
@@ -124,7 +124,7 @@ In code:
 wpm = (typed.length() / 5.0) / (timeTaken / 60.0);
 ```
 
-## 🧪 Example Output
+## Example Output
 
 ```text
 Type the following sentence:
