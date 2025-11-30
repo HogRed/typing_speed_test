@@ -101,6 +101,12 @@ int main() {
 			sentences.erase(it); // remove the selected sentence from the list
 		}
 
+		// if no more sentences left, exit loop
+		if (sentences.empty()) {
+			cout << "No more sentences left to type. Ending the test." << endl;
+			break;
+		}
+
 		cout << "Type the following sentence:" << endl;
 		cout << "\"" << sentenceToType << "\"" << endl << endl;
 
